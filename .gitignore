@@ -1,0 +1,6 @@
+htdocs/.htaccess
+htdocs/.idea/
+htdocs/wp-config.php
+htdocs/assets-havas/uploads/
+htdocs/havas-content/uploads/
+htdocs/havas-content/debug.log
