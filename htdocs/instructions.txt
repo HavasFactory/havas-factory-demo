@@ -1,0 +1,24 @@
+Après avoir cloné et installé ce WordPress en local :
+
+todo : fournir un dump sql
+
+Vous devez créer un thème multilingue, contenant un template de page type formulaire de contact.
+Ce formulaire doit envoyer/sauver les données via l'API REST.
+On doit pouvoir exporter les données via le back-office avec un accès dédié (pour être conforme avec la RGPD)
+
+Les seuls plugins requis : classic editor, ACF Pro et Polylang
+
+******************************************************
+
+Ensuite vous devez créer un second thème pour le second site, avec gutenberg cette fois.
+Il faudra créer un nouveau bloc type formulaire de contact.
+Ce formulaire doit envoyer/sauver les données via l'API REST.
+On doit pouvoir exporter les données via le back-office avec un accès dédié (pour être conforme avec la RGPD)
+
+Le seul plugin requis : ACF Pro.
+
+******************************************************
+
+Le côté graphique n'est pas important, c'est votre code PHP (et éventuellement JS si besoin) qui sera évalué.
+
+Bon chance!
