@@ -2,20 +2,29 @@ Après avoir cloné et installé ce WordPress en local :
 
 todo : fournir un dump sql
 
-Vous devez créer un thème multilingue, contenant un template de page type formulaire de contact.
+Vous devez créer un thème, contenant deux templates de page spécifique : une landing page et un formulaire de contact, ainsi qu'un Custom Post Communiqués de presse et une page d'options (pour gérer les clés Recaptcha et Googel Analytics)
+
+Contenu de la landing page :
+Contenu flexible composé d'un bloc Slider images, un bloc texte WYSIWYG, un bloc listing Communiqués de presse et un bloc image
+
+Contenu de la page contact :
+Un bloc texte WYSIWYG, le formulaire de contact : à minima champs requis (email type email, sujet type texte, optin RGPD type entier, message type texte)
 Ce formulaire doit envoyer/sauver les données via l'API REST.
 On doit pouvoir exporter les données via le back-office avec un accès dédié (pour être conforme avec la RGPD)
 
-Les seuls plugins requis : classic editor, ACF Pro et Polylang
+Si possible le formulaire doit être fonctionnel, sinon fournir une collection Postman pour tester votre API.
+
+Les seules extensions requises : classic editor, ACF Pro
 
 ******************************************************
 
-Ensuite vous devez créer un second thème pour le second site, avec gutenberg cette fois.
-Il faudra créer un nouveau bloc type formulaire de contact.
-Ce formulaire doit envoyer/sauver les données via l'API REST.
-On doit pouvoir exporter les données via le back-office avec un accès dédié (pour être conforme avec la RGPD)
+Ensuite vous devez créer un second thème pour le second site, même contrainte de contenu mais en utilisant Gutenberg.
 
-Le seul plugin requis : ACF Pro.
+La seule extension requise : ACF Pro.
+
+******************************************************
+
+En bonus, rendre l'un des 2 sites multilangues grâce à l'extension Polylang.
 
 ******************************************************
 
