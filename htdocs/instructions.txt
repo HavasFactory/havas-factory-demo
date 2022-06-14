@@ -1,6 +1,5 @@
 Après avoir cloné et installé ce WordPress en local :
-
-todo : fournir un dump sql
+(Dump sql à la racine du dossier htdocs)
 
 Vous devez créer un thème, contenant deux templates de page spécifique : une landing page et un formulaire de contact, ainsi qu'un Custom Post Communiqués de presse et une page d'options (pour gérer les clés Recaptcha et Googel Analytics)
 
