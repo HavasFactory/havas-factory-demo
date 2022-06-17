@@ -1,7 +1,9 @@
 Après avoir cloné et installé ce WordPress en local :
 (Dump sql à la racine du dossier htdocs)
 
-Vous devez créer un thème, contenant deux templates de page spécifique : une landing page et un formulaire de contact, ainsi qu'un Custom Post Communiqués de presse et une page d'options (pour gérer les clés Recaptcha et Googel Analytics)
+Créer une branche à votre nom origin/<nom-prenom> en partant de la branche master
+
+Ensuite, vous devez créer un thème, contenant deux templates de page spécifique : une landing page et un formulaire de contact, ainsi qu'un Custom Post Communiqués de presse et une page d'options (pour gérer les clés Recaptcha et Googel Analytics)
 
 Contenu de la landing page :
 Contenu flexible composé d'un bloc Slider images, un bloc texte WYSIWYG, un bloc listing Communiqués de presse et un bloc image
@@ -24,6 +26,10 @@ La seule extension requise : ACF Pro.
 ******************************************************
 
 En bonus, rendre l'un des 2 sites multilangues grâce à l'extension Polylang.
+
+******************************************************
+
+Pour terminer, poussez le travail effectué sur votre branche git
 
 ******************************************************
 
